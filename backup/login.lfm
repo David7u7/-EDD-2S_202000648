@@ -1,0 +1,57 @@
+object Form1: TForm1
+  Left = 861
+  Height = 353
+  Top = 280
+  Width = 369
+  Caption = 'Form1'
+  ClientHeight = 353
+  ClientWidth = 369
+  LCLVersion = '3.0.0.3'
+  object Label1: TLabel
+    Left = 53
+    Height = 18
+    Top = 80
+    Width = 37
+    Caption = 'Email'
+  end
+  object Label2: TLabel
+    Left = 48
+    Height = 18
+    Top = 128
+    Width = 64
+    Caption = 'Password'
+  end
+  object BtnLogin: TButton
+    Left = 104
+    Height = 57
+    Top = 208
+    Width = 147
+    Caption = 'Iniciar Sesion'
+    TabOrder = 0
+    OnClick = BtnLoginClick
+  end
+  object EditEmail: TEdit
+    Left = 176
+    Height = 35
+    Top = 63
+    Width = 160
+    TabOrder = 1
+  end
+  object EditePassword: TEdit
+    Left = 176
+    Height = 35
+    Top = 120
+    Width = 160
+    EchoMode = emPassword
+    PasswordChar = '*'
+    TabOrder = 2
+  end
+  object Button2: TButton
+    Left = 104
+    Height = 57
+    Top = 280
+    Width = 147
+    Caption = 'Crear Cuenta'
+    TabOrder = 3
+  end
+end
