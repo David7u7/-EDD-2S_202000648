@@ -11,14 +11,6 @@ uses
 
 
 type
-  PUsuario = ^TUsuario;
-  TUsuario = record
-    Id: Integer;
-    Nombre, Usuario, Password, Email, Telefono: string;
-    Next: PUsuario;
-  end;
-
-type
 
   { TForm2 }
 
@@ -36,7 +28,7 @@ type
 
 var
   Form2: TForm2;
-  ListaUsuarios: PUsuario = nil;  // inicio de la lista
+
 
 implementation
 

@@ -54,7 +54,7 @@ procedure TForm1.BtnLoginClick(Sender: TObject);
     if UsuarioEncontrado <> nil then
     begin
       ShowMessage('Bienvenido ' + UsuarioEncontrado^.Nombre);
-      // aquí puedes abrir otro form (ej: perfil usuario, bandeja, etc.)
+
     end
     else
     begin

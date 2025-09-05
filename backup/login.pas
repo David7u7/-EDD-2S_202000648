@@ -49,7 +49,6 @@ procedure TForm1.BtnLoginClick(Sender: TObject);
       Exit;
     end;
 
-    // Buscar en la lista enlazada
     UsuarioEncontrado := BuscarUsuario(Editemail.Text, Editepassword.Text);
 
     if UsuarioEncontrado <> nil then

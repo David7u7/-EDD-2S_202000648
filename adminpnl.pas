@@ -48,7 +48,7 @@ begin
     OpenDialog.Filter := 'Archivos JSON|*.json';
     if OpenDialog.Execute then
     begin
-      CargarUsuariosDesdeJSON(OpenDialog.FileName); // 👈 llamada centralizada
+      CargarUsuariosDesdeJSON(OpenDialog.FileName); //llamada central
       ShowMessage('Usuarios cargados desde: ' + OpenDialog.FileName);
     end;
   finally
