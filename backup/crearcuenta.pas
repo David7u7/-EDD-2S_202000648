@@ -5,14 +5,17 @@ unit CrearCuenta;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls;
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls,unitUsuarios;
 
 type
 
   { TForm3 }
 
   TForm3 = class(TForm)
+    Button1: TButton;
+    ID: TEdit;
     EditNombre: TEdit;
+    EditNumero: TEdit;
     EditUsuario: TEdit;
     EditPassword: TEdit;
     EditEmail: TEdit;
@@ -22,6 +25,9 @@ type
     Label3: TLabel;
     Label4: TLabel;
     Label5: TLabel;
+    Label6: TLabel;
+    procedure Button1Click(Sender: TObject);
+    procedure EditUsuarioChange(Sender: TObject);
     procedure FormCreate(Sender: TObject);
   private
 
@@ -38,43 +44,53 @@ implementation
 
 { TForm3 }
 
-
-procedure TForm3.AgregarUsuario;
-var
-  IdNuevo: Integer;
+procedure TForm3.FormCreate(Sender: TObject);
 begin
-  // Calculamos el ID de forma simple (tomando el máximo actual + 1)
-  IdNuevo := 1;
-  if ListaUsuarios <> nil then
+
+end;
+
+procedure TForm3.Button1Click(Sender: TObject);
+var
+  NuevoId: Integer;
+begin
+
+
+
+
+  // Verificar que no falte un campo
+  if (EditNombre.Text = '') or (EditUsuario.Text = '') or (EditPassword.Text = '') then
   begin
-    var Temp := ListaUsuarios;
-    while Temp^.Next <> nil do
-      Temp := Temp^.Next;
-    IdNuevo := Temp^.Id + 1;
+    ShowMessage('Por favor complete todos los campos requeridos');
+    Exit;
   end;
 
-  // Insertamos el usuario con los datos de los Edit
+  try
+    NuevoId := StrToInt(EditId.Text);
+  except
+    on E: Exception do
+    begin
+      ShowMessage('El ID debe ser un número válido.');
+      Exit;
+    end;
+  end;
+
+  // Insertar en la lista
   InsertarUsuario(
-    IdNuevo,
+    NuevoId,
     EditNombre.Text,
     EditUsuario.Text,
     EditPassword.Text,
     EditEmail.Text,
-    Edit5.Text  // aquí asumo que Edit5 es el Teléfono
+    EditNumero.Text
   );
 
-  ShowMessage('Usuario agregado con éxito.');
+  ShowMessage('Usuario creado exitosamente: ' + EditUsuario.Text);
 
-  // Opcional: limpiar los campos después de registrar
-  EditNombre.Clear;
-  EditUsuario.Clear;
-  EditPassword.Clear;
-  EditEmail.Clear;
-  Edit5.Clear;
+  // Opcional: cerrar el form de creación y volver al login
+  Close;
 end;
 
-
-procedure TForm3.FormCreate(Sender: TObject);
+procedure TForm3.EditUsuarioChange(Sender: TObject);
 begin
 
 end;

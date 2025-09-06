@@ -7,22 +7,23 @@
       <Unit>
         <Filename Value="project1.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="4"/>
+        <EditorIndex Value="5"/>
         <TopLine Value="2"/>
-        <CursorPos X="64" Y="14"/>
-        <UsageCount Value="20"/>
+        <CursorPos X="45" Y="9"/>
+        <UsageCount Value="22"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="login.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Login"/>
         <IsVisibleTab Value="True"/>
         <TopLine Value="41"/>
-        <CursorPos X="61" Y="53"/>
-        <UsageCount Value="20"/>
+        <CursorPos X="10" Y="56"/>
+        <UsageCount Value="22"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -30,11 +31,13 @@
         <Filename Value="adminpnl.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form2"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="AdminPnl"/>
-        <EditorIndex Value="1"/>
-        <CursorPos X="35" Y="13"/>
-        <UsageCount Value="20"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="34"/>
+        <CursorPos X="70" Y="51"/>
+        <UsageCount Value="22"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -42,12 +45,13 @@
         <Filename Value="crearcuenta.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form3"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="CrearCuenta"/>
-        <EditorIndex Value="3"/>
-        <TopLine Value="22"/>
-        <CursorPos X="18" Y="36"/>
-        <UsageCount Value="20"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="74"/>
+        <CursorPos X="43" Y="82"/>
+        <UsageCount Value="22"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -55,78 +59,26 @@
         <Filename Value="unitusuarios.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="unitUsuarios"/>
-        <EditorIndex Value="2"/>
-        <TopLine Value="11"/>
-        <CursorPos X="29" Y="24"/>
-        <UsageCount Value="20"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="43"/>
+        <CursorPos X="35" Y="32"/>
+        <UsageCount Value="22"/>
         <Loaded Value="True"/>
       </Unit>
+      <Unit>
+        <Filename Value="usuarioestandar.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form4"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="89" Y="18"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
     </Units>
-    <JumpHistory HistoryIndex="20">
-      <Position>
-        <Filename Value="login.pas"/>
-        <Caret Line="48" Column="3"/>
-      </Position>
-      <Position>
-        <Filename Value="login.pas"/>
-        <Caret Line="43" Column="10" TopLine="25"/>
-      </Position>
-      <Position>
-        <Filename Value="login.pas"/>
-        <Caret Line="51" Column="45" TopLine="27"/>
-      </Position>
-      <Position>
-        <Filename Value="adminpnl.pas"/>
-        <Caret Line="80" Column="39" TopLine="45"/>
-      </Position>
-      <Position>
-        <Filename Value="unitusuarios.pas"/>
-        <Caret Line="8" Column="37"/>
-      </Position>
-      <Position>
-        <Filename Value="login.pas"/>
-        <Caret Line="8" Column="89" TopLine="28"/>
-      </Position>
-      <Position>
-        <Filename Value="login.pas"/>
-        <Caret Line="43" Column="25" TopLine="27"/>
-      </Position>
-      <Position>
-        <Filename Value="login.pas"/>
-        <Caret Line="38" Column="24" TopLine="27"/>
-      </Position>
-      <Position>
-        <Filename Value="login.pas"/>
-        <Caret Line="44" Column="56" TopLine="27"/>
-      </Position>
-      <Position>
-        <Filename Value="crearcuenta.pas"/>
-        <Caret Line="18" Column="47"/>
-      </Position>
-      <Position>
-        <Filename Value="crearcuenta.pas"/>
-        <Caret Line="73" Column="32" TopLine="58"/>
-      </Position>
-      <Position>
-        <Filename Value="crearcuenta.pas"/>
-        <Caret Line="36" Column="18" TopLine="22"/>
-      </Position>
-      <Position>
-        <Filename Value="login.pas"/>
-        <Caret Line="44" Column="56" TopLine="27"/>
-      </Position>
-      <Position>
-        <Filename Value="adminpnl.pas"/>
-        <Caret Line="90" Column="7" TopLine="67"/>
-      </Position>
-      <Position>
-        <Filename Value="login.pas"/>
-        <Caret Line="50" Column="40" TopLine="34"/>
-      </Position>
-      <Position>
-        <Filename Value="unitusuarios.pas"/>
-        <Caret Line="54" Column="10" TopLine="41"/>
-      </Position>
+    <JumpHistory HistoryIndex="29">
       <Position>
         <Filename Value="unitusuarios.pas"/>
         <Caret Line="104" Column="72" TopLine="80"/>
@@ -147,21 +99,110 @@
         <Filename Value="login.pas"/>
         <Caret Line="44" Column="45" TopLine="31"/>
       </Position>
+      <Position>
+        <Filename Value="login.pas"/>
+        <Caret Line="58" Column="12" TopLine="42"/>
+      </Position>
+      <Position>
+        <Filename Value="usuarioestandar.pas"/>
+        <Caret Line="12" Column="18"/>
+      </Position>
+      <Position>
+        <Filename Value="crearcuenta.pas"/>
+        <Caret Line="36" Column="18" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="crearcuenta.pas"/>
+        <Caret Line="39" Column="18" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="crearcuenta.pas"/>
+        <Caret Line="46" Column="35" TopLine="30"/>
+      </Position>
+      <Position>
+        <Filename Value="login.pas"/>
+        <Caret Line="47" Column="50"/>
+      </Position>
+      <Position>
+        <Filename Value="login.pas"/>
+        <Caret Column="66"/>
+      </Position>
+      <Position>
+        <Filename Value="crearcuenta.pas"/>
+        <Caret Line="40" Column="62" TopLine="30"/>
+      </Position>
+      <Position>
+        <Filename Value="login.pas"/>
+        <Caret Line="4" Column="50"/>
+      </Position>
+      <Position>
+        <Filename Value="login.pas"/>
+        <Caret Column="66"/>
+      </Position>
+      <Position>
+        <Filename Value="login.pas"/>
+        <Caret Line="75" Column="42" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="login.pas"/>
+        <Caret Line="78" Column="5" TopLine="55"/>
+      </Position>
+      <Position>
+        <Filename Value="login.pas"/>
+        <Caret Line="16" Column="112"/>
+      </Position>
+      <Position>
+        <Filename Value="login.pas"/>
+        <Caret Line="21" Column="5" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="login.pas"/>
+        <Caret Line="73" Column="61" TopLine="57"/>
+      </Position>
+      <Position>
+        <Filename Value="login.pas"/>
+        <Caret Line="75" Column="24" TopLine="57"/>
+      </Position>
+      <Position>
+        <Filename Value="login.pas"/>
+        <Caret Line="79" TopLine="55"/>
+      </Position>
+      <Position>
+        <Filename Value="login.pas"/>
+        <Caret Line="67" Column="25" TopLine="56"/>
+      </Position>
+      <Position>
+        <Filename Value="crearcuenta.pas"/>
+        <Caret Line="52" Column="3" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="crearcuenta.pas"/>
+        <Caret Line="58" Column="12" TopLine="37"/>
+      </Position>
+      <Position>
+        <Filename Value="login.pas"/>
+        <Caret Line="75" Column="86" TopLine="55"/>
+      </Position>
+      <Position>
+        <Filename Value="crearcuenta.pas"/>
+        <Caret Line="55" Column="34" TopLine="48"/>
+      </Position>
+      <Position>
+        <Filename Value="crearcuenta.pas"/>
+        <Caret Line="56" Column="34" TopLine="49"/>
+      </Position>
+      <Position>
+        <Filename Value="crearcuenta.pas"/>
+        <Caret Line="57" Column="34" TopLine="50"/>
+      </Position>
+      <Position>
+        <Filename Value="crearcuenta.pas"/>
+        <Caret Line="82" Column="43" TopLine="74"/>
+      </Position>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes ActiveMode=""/>
     </RunParams>
   </ProjectSession>
-  <Debugging>
-    <BreakPoints>
-      <Item>
-        <Kind Value="bpkSource"/>
-        <WatchScope Value="wpsLocal"/>
-        <WatchKind Value="wpkWrite"/>
-        <Source Value="login.pas"/>
-        <Line Value="52"/>
-      </Item>
-    </BreakPoints>
-  </Debugging>
 </CONFIG>

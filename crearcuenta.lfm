@@ -1,13 +1,13 @@
 object Form3: TForm3
-  Left = 827
-  Height = 300
-  Top = 310
+  Left = 717
+  Height = 414
+  Top = 285
   Width = 320
   Caption = 'Form3'
-  ClientHeight = 300
+  ClientHeight = 414
   ClientWidth = 320
+  LCLVersion = '4.2.0.0'
   OnCreate = FormCreate
-  LCLVersion = '3.0.0.3'
   object Label1: TLabel
     Left = 33
     Height = 18
@@ -49,7 +49,6 @@ object Form3: TForm3
     Top = 40
     Width = 152
     TabOrder = 0
-    Text = 'EditNombre'
   end
   object EditUsuario: TEdit
     Left = 136
@@ -57,7 +56,7 @@ object Form3: TForm3
     Top = 88
     Width = 152
     TabOrder = 1
-    Text = 'EditUsuario'
+    OnChange = EditUsuarioChange
   end
   object EditPassword: TEdit
     Left = 136
@@ -65,7 +64,6 @@ object Form3: TForm3
     Top = 136
     Width = 152
     TabOrder = 2
-    Text = 'EditPassword'
   end
   object EditEmail: TEdit
     Left = 136
@@ -73,7 +71,6 @@ object Form3: TForm3
     Top = 184
     Width = 152
     TabOrder = 3
-    Text = 'EditEmail'
   end
   object EditNumero: TEdit
     Left = 136
@@ -81,6 +78,28 @@ object Form3: TForm3
     Top = 232
     Width = 152
     TabOrder = 4
-    Text = 'EditNumero'
+  end
+  object Button1: TButton
+    Left = 72
+    Height = 41
+    Top = 352
+    Width = 168
+    Caption = 'Crear Cuenta'
+    TabOrder = 5
+    OnClick = Button1Click
+  end
+  object Label6: TLabel
+    Left = 141
+    Height = 18
+    Top = 280
+    Width = 14
+    Caption = 'ID'
+  end
+  object ID: TEdit
+    Left = 112
+    Height = 35
+    Top = 304
+    Width = 80
+    TabOrder = 6
   end
 end

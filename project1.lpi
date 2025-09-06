@@ -37,6 +37,7 @@
         <Filename Value="login.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Login"/>
       </Unit>
@@ -44,6 +45,7 @@
         <Filename Value="adminpnl.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form2"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="AdminPnl"/>
       </Unit>
@@ -51,6 +53,7 @@
         <Filename Value="crearcuenta.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form3"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="CrearCuenta"/>
       </Unit>
@@ -58,6 +61,13 @@
         <Filename Value="unitusuarios.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="unitUsuarios"/>
+      </Unit>
+      <Unit>
+        <Filename Value="usuarioestandar.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form4"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
       </Unit>
     </Units>
   </ProjectOptions>

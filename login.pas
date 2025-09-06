@@ -5,7 +5,7 @@ unit Login;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls,AdminPnl,unitUsuarios;
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls,AdminPnl,unitUsuarios,usuarioestandar,CrearCuenta;
 
 type
 
@@ -18,6 +18,7 @@ type
     EditePassword: TEdit;
     Label1: TLabel;
     Label2: TLabel;
+    procedure Button2Click(Sender: TObject);
     procedure BtnLoginClick(Sender: TObject);
   private
 
@@ -41,7 +42,7 @@ procedure TForm1.BtnLoginClick(Sender: TObject);
     UsuarioEncontrado: PUsuario;
   begin
     // Caso root/admin hardcodeado
-    if (Editemail.Text = 'admin') and (Editepassword.Text = '1234') then
+    if (Editemail.Text = 'root@edd.com') and (Editepassword.Text = 'root123') then
     begin
       Hide;
       Form2.ShowModal;   // Abre panel admin
@@ -54,6 +55,10 @@ procedure TForm1.BtnLoginClick(Sender: TObject);
     if UsuarioEncontrado <> nil then
     begin
       ShowMessage('Bienvenido ' + UsuarioEncontrado^.Nombre);
+      Hide;
+      Form4.ShowModal;   // Abre panel admin
+      Show;
+      Exit;
 
     end
     else
@@ -61,6 +66,17 @@ procedure TForm1.BtnLoginClick(Sender: TObject);
       ShowMessage('Usuario o contraseña incorrectos.');
     end;
   end;
+
+
+procedure TForm1.Button2Click(Sender: TObject);
+     begin
+
+       Hide;
+       Form3.ShowModal;
+       Show;
+       Exit;
+     end;
+
 
 end.
 

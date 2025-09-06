@@ -6,7 +6,7 @@ object Form1: TForm1
   Caption = 'Form1'
   ClientHeight = 353
   ClientWidth = 369
-  LCLVersion = '3.0.0.3'
+  LCLVersion = '4.2.0.0'
   object Label1: TLabel
     Left = 53
     Height = 18
@@ -53,5 +53,6 @@ object Form1: TForm1
     Width = 147
     Caption = 'Crear Cuenta'
     TabOrder = 3
+    OnClick = Button2Click
   end
 end
