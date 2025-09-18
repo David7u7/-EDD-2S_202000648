@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/bin/fpc" Date="1704440408"/>
+  <Params Value=" -MObjFPC -Scghi -Cg -O1 -gw3 -gl -l -vewnhibq -Fi/home/david/Escritorio/[EDD]1S_202000648/Tareas/T2/lib/x86_64-linux -Fu/home/david/Escritorio/[EDD]1S_202000648/Tareas/T2/ -FU/home/david/Escritorio/[EDD]1S_202000648/Tareas/T2/lib/x86_64-linux/ -FE/home/david/Escritorio/[EDD]1S_202000648/Tareas/T2/ -o/home/david/Escritorio/[EDD]1S_202000648/Tareas/T2/bst_json bst_json.lpr"/>
+  <Complete Value="False"/>
+</CONFIG>
