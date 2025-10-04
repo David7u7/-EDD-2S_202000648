@@ -1,0 +1,64 @@
+object Form5: TForm5
+  Left = 761
+  Height = 327
+  Top = 300
+  Width = 424
+  Caption = 'Form5'
+  ClientHeight = 327
+  ClientWidth = 424
+  LCLVersion = '4.2.0.0'
+  object Label1: TLabel
+    Left = 40
+    Height = 18
+    Top = 41
+    Width = 83
+    Caption = 'Destinatario'
+    OnClick = Label1Click
+  end
+  object Label2: TLabel
+    Left = 40
+    Height = 18
+    Top = 96
+    Width = 47
+    Caption = 'Asunto'
+    OnClick = Label1Click
+  end
+  object Label3: TLabel
+    Left = 40
+    Height = 18
+    Top = 160
+    Width = 55
+    Caption = 'Mensaje'
+    OnClick = Label1Click
+  end
+  object Edit1: TEdit
+    Left = 160
+    Height = 35
+    Top = 40
+    Width = 248
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 160
+    Height = 35
+    Top = 96
+    Width = 248
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 160
+    Height = 35
+    Top = 160
+    Width = 248
+    TabOrder = 2
+    OnChange = Edit3Change
+  end
+  object Button1: TButton
+    Left = 161
+    Height = 25
+    Top = 255
+    Width = 75
+    Caption = 'Enviar'
+    TabOrder = 3
+  end
+end

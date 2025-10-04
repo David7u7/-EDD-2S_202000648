@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="project1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="46" Y="18"/>
+        <UsageCount Value="33"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="login.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Login"/>
+        <EditorIndex Value="5"/>
+        <CursorPos X="128" Y="8"/>
+        <UsageCount Value="33"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="adminpnl.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form2"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="AdminPnl"/>
+        <EditorIndex Value="6"/>
+        <CursorPos X="3" Y="63"/>
+        <UsageCount Value="33"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="crearcuenta.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form3"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="CrearCuenta"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="74"/>
+        <CursorPos X="43" Y="82"/>
+        <UsageCount Value="33"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unitusuarios.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="unitUsuarios"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="97"/>
+        <CursorPos X="65" Y="9"/>
+        <UsageCount Value="33"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="usuarioestandar.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form4"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="64"/>
+        <UsageCount Value="33"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unitcorreos.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="189"/>
+        <CursorPos X="48" Y="200"/>
+        <UsageCount Value="27"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="enviarcorreo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form5"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="enviarCorreo"/>
+        <EditorIndex Value="4"/>
+        <CursorPos X="46" Y="21"/>
+        <UsageCount Value="25"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="enviarvorreo.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="9" Y="14"/>
+        <UsageCount Value="22"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="23">
+      <Position>
+        <Filename Value="adminpnl.pas"/>
+        <Caret Line="51" Column="70" TopLine="34"/>
+      </Position>
+      <Position>
+        <Filename Value="usuarioestandar.pas"/>
+        <Caret Line="14" Column="49"/>
+      </Position>
+      <Position>
+        <Filename Value="usuarioestandar.pas"/>
+        <Caret Line="44" Column="3" TopLine="23"/>
+      </Position>
+      <Position>
+        <Filename Value="usuarioestandar.pas"/>
+        <Caret Line="45" Column="3" TopLine="24"/>
+      </Position>
+      <Position>
+        <Filename Value="usuarioestandar.pas"/>
+        <Caret Line="23" Column="60" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="usuarioestandar.pas"/>
+        <Caret Line="37" Column="72" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="usuarioestandar.pas"/>
+        <Caret Line="12" Column="34"/>
+      </Position>
+      <Position>
+        <Filename Value="adminpnl.pas"/>
+        <Caret Line="49" Column="26" TopLine="35"/>
+      </Position>
+      <Position>
+        <Filename Value="adminpnl.pas"/>
+        <Caret Line="62" Column="66" TopLine="45"/>
+      </Position>
+      <Position>
+        <Filename Value="enviarcorreo.pas"/>
+        <Caret Line="42" Column="68" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="usuarioestandar.pas"/>
+        <Caret Line="52" Column="43" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="usuarioestandar.pas"/>
+        <Caret Line="15" Column="71"/>
+      </Position>
+      <Position>
+        <Filename Value="usuarioestandar.pas"/>
+        <Caret Line="12" Column="40"/>
+      </Position>
+      <Position>
+        <Filename Value="usuarioestandar.pas"/>
+        <Caret Line="19" Column="40"/>
+      </Position>
+      <Position>
+        <Filename Value="unitcorreos.pas"/>
+        <Caret Line="33" Column="35" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="usuarioestandar.pas"/>
+        <Caret Line="20" Column="41"/>
+      </Position>
+      <Position>
+        <Filename Value="unitcorreos.pas"/>
+        <Caret Line="34" Column="3" TopLine="21"/>
+      </Position>
+      <Position>
+        <Filename Value="enviarcorreo.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="usuarioestandar.pas"/>
+        <Caret Line="45" Column="19" TopLine="34"/>
+      </Position>
+      <Position>
+        <Filename Value="unitcorreos.pas"/>
+        <Caret Line="147" Column="38" TopLine="134"/>
+      </Position>
+      <Position>
+        <Filename Value="unitcorreos.pas"/>
+        <Caret Line="204" Column="52" TopLine="193"/>
+      </Position>
+      <Position>
+        <Filename Value="unitcorreos.pas"/>
+        <Caret Line="174" Column="41" TopLine="154"/>
+      </Position>
+      <Position>
+        <Filename Value="enviarcorreo.pas"/>
+        <Caret Line="21" Column="46" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="unitcorreos.pas"/>
+        <Caret Line="2" TopLine="16"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+    <HistoryLists>
+      <List Name="LaunchingApplication" Type="File" Count="1">
+        <Item1 Value="/usr/bin/gnome-terminal -t &apos;Lazarus Run Output&apos; -e &apos;$(LazarusDir)/tools/runwait.sh $(TargetCmdLine)&apos;"/>
+      </List>
+    </HistoryLists>
+  </ProjectSession>
+</CONFIG>

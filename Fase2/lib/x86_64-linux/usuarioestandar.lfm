@@ -1,0 +1,115 @@
+object Form4: TForm4
+  Left = 421
+  Height = 382
+  Top = 292
+  Width = 574
+  Caption = 'Form4'
+  ClientHeight = 382
+  ClientWidth = 574
+  LCLVersion = '4.2.0.0'
+  object Label1: TLabel
+    Left = 232
+    Height = 18
+    Top = 24
+    Width = 86
+    Caption = 'Hola Alumno'
+  end
+  object Button1: TButton
+    Left = 55
+    Height = 25
+    Top = 68
+    Width = 195
+    Caption = 'Bandeja de Entrada'
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 304
+    Height = 25
+    Top = 68
+    Width = 195
+    Caption = 'Enviar Correo'
+    TabOrder = 1
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 55
+    Height = 25
+    Top = 112
+    Width = 195
+    Caption = 'Papelera'
+    TabOrder = 2
+  end
+  object Button4: TButton
+    Left = 56
+    Height = 25
+    Top = 152
+    Width = 195
+    Caption = 'Programar Correo'
+    TabOrder = 3
+  end
+  object Button5: TButton
+    Left = 304
+    Height = 25
+    Top = 152
+    Width = 195
+    Caption = 'Correos Programados'
+    TabOrder = 4
+  end
+  object Button6: TButton
+    Left = 56
+    Height = 25
+    Top = 200
+    Width = 195
+    Caption = 'Agregar Contacto'
+    TabOrder = 5
+  end
+  object Button7: TButton
+    Left = 304
+    Height = 25
+    Top = 200
+    Width = 195
+    Caption = 'Contactos'
+    TabOrder = 6
+  end
+  object Button8: TButton
+    Left = 55
+    Height = 25
+    Top = 256
+    Width = 195
+    Caption = 'Actualizar Perfil'
+    TabOrder = 7
+  end
+  object Button9: TButton
+    Left = 304
+    Height = 25
+    Top = 256
+    Width = 195
+    Caption = 'Generar Reporte'
+    TabOrder = 8
+  end
+  object Button10: TButton
+    Left = 304
+    Height = 25
+    Top = 112
+    Width = 75
+    Caption = 'Favoritos'
+    TabOrder = 9
+    OnClick = Button10Click
+  end
+  object Button11: TButton
+    Left = 56
+    Height = 25
+    Top = 312
+    Width = 195
+    Caption = 'Mensaje sin Comunidad'
+    TabOrder = 10
+  end
+  object Button12: TButton
+    Left = 304
+    Height = 25
+    Top = 312
+    Width = 195
+    Caption = 'Borradores de mensajes'
+    TabOrder = 11
+  end
+end
